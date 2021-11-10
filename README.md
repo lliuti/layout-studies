@@ -12,6 +12,12 @@ Frontend UI/UX/Animation/Responsivity studies. Most of these studies are inspira
 
 Inspired by [Piqo Design](https://dribbble.com/shots/16711536-Pre-order-time-Shoplon-Style-guide-Typography)
 
+### EFood
+
+![EFood example](/efood/example.png)
+
+Inspired by [Nahid](https://dribbble.com/shots/14901833-Food-ecommerce-order-management-admin-panel)
+
 ### Condo
 
 ![Condo Example](/condo/example.gif)
