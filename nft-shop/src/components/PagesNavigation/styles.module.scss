@@ -1,0 +1,48 @@
+.pagesNavigationContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 80px;
+
+  .item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    transition: 300ms all;
+    padding: 10px 60px;
+    border-left: 3px solid transparent;
+
+    &:hover {
+      background-color: #222;
+      cursor: pointer;
+    }
+
+    &.activeItem {
+      border-left: 3px solid #0268ff;
+
+      .itemIcon {
+        background-color: #0268ff;
+      }
+
+      p {
+        color: #fff;
+      }
+    }
+
+    .itemIcon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      width: 45px;
+      height: 40px;
+      background-color: #303030;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
