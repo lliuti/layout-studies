@@ -14,19 +14,19 @@ Frontend UI/UX/Animation/Responsivity studies. Most of these studies are inspira
 
 <br>
 
-### EFood
-
-![EFood example](/efood/example.png)
-
-##### Inspired by [Nahid](https://dribbble.com/shots/14901833-Food-ecommerce-order-management-admin-panel)
-
-<br>
-
 ### DigitalArt
 
 ![DigitalArt Example](/digital-art/example.png)
 
 ##### Inspired by [Vladimir](https://dribbble.com/shots/15798662-Product-page-hero-section/attachments/7609872?mode=media)
+
+<br>
+
+### EFood
+
+![EFood example](/efood/example.png)
+
+##### Inspired by [Nahid](https://dribbble.com/shots/14901833-Food-ecommerce-order-management-admin-panel)
 
 <br>
 
