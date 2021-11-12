@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #344582;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #f6ba71, #344582),
+    repeating-radial-gradient(
+      circle at center center,
+      #f6ba71,
+      #f6ba71,
+      4px,
+      transparent 8px,
+      transparent 4px
+    );
+  background-blend-mode: multiply;
+  backdrop-filter: blur(1px);
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+#root {
+  height: 100%;
+}
