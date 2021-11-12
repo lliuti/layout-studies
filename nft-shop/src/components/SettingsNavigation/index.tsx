@@ -15,7 +15,7 @@ export const SettingsNavigation = () => {
         <div className={styles.itemIcon}>
           <MdHelpOutline size={24} />
         </div>
-        <p>Help Center</p>
+        <p>Help</p>
       </div>
     </div>
   );
