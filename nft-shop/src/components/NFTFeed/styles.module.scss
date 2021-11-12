@@ -1,0 +1,75 @@
+.nftFeedContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 0px 30px 30px;
+
+  .nftBox {
+    border-radius: 10px;
+    background-color: #393939;
+    min-width: 210px;
+    max-width: 250px;
+
+    img {
+      width: 100%;
+      height: 150px;
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    .nftDetails {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+
+      .leftDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        h1 {
+          color: #fff;
+          margin-bottom: 5px;
+        }
+
+        h2 {
+          color: #30d158;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+
+        p {
+          color: #ccc;
+        }
+      }
+
+      .rightDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          color: #ccc;
+          margin-bottom: 10px;
+        }
+
+        button {
+          background-color: #30d158;
+          color: #fff;
+          border: none;
+          border-radius: 25px;
+          padding: 06px 30px;
+          transition: 300ms all;
+
+          &:hover {
+            background-color: #0268ff;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
