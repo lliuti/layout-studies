@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  background-color: #e0f4f5;
+}
+
+body::-webkit-scrollbar {
+  background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #222;
+}
