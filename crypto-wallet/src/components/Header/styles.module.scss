@@ -1,0 +1,31 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+
+  .headerLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+      color: #eee;
+
+      &:hover {
+        color: #fff;
+      }
+
+      &:not(:last-of-type) {
+        margin-right: 30px;
+      }
+    }
+  }
+}
