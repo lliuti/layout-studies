@@ -1,34 +1,10 @@
-.feedContainer {
-  padding: 30px;
+.feedPageContainer {
+  padding: 20px 0px 20px 20px;
+  max-width: 800px;
+  justify-self: center;
 
-  .topActionsBar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    .topActionsButtons {
-      button {
-        background-color: #303030;
-        border: 0;
-        width: 58px;
-        height: 52px;
-        border-radius: 15px;
-        cursor: pointer;
-        transition: 300ms all;
-
-        &:hover {
-          background-color: #0268ff;
-        }
-
-        &:not(:last-of-type) {
-          margin-right: 10px;
-        }
-
-        svg {
-          color: #fff;
-        }
-      }
-    }
+  .feedContainer {
+    background-color: #191919;
+    border-radius: 25px;
   }
 }
