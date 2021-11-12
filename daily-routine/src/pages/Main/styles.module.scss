@@ -1,0 +1,149 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+
+  .improveContainer {
+    background-image: url(../../assets/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    width: 100%;
+    padding: 100px 0px 0px 300px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 400;
+      max-width: 690px;
+
+      span {
+        color: #000;
+        font-weight: 700;
+      }
+    }
+
+    button {
+      font-size: 1.4rem;
+      background-color: #fff;
+      color: #333;
+      border-radius: 10px;
+      border: 2px solid #333;
+      padding: 10px 35px;
+      box-shadow: 4px 4px 0px #000;
+      font-weight: bold;
+      transform: rotate(3deg);
+      cursor: pointer;
+      transition: 350ms all;
+      align-self: start;
+      margin-top: 50px;
+
+      &:hover {
+        background-color: #333;
+        color: #fff;
+        transform: rotate(0deg);
+      }
+    }
+  }
+
+  .cleaningContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 100px 0px;
+
+    background-image: url(../../assets/wave-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    width: 100%;
+
+    h1 {
+      &:first-of-type {
+        font-size: 5rem;
+        margin-bottom: 20px;
+        transform: rotate(-25deg);
+      }
+
+      font-size: 3rem;
+      margin-bottom: 10px;
+      transition: 300ms all;
+      transform: rotate(-2deg);
+
+      &:hover {
+        transform: rotate(0deg);
+      }
+    }
+
+    h2 {
+      font-size: 2.6rem;
+      font-weight: 400;
+      transform: rotate(1deg);
+      transition: 300ms all;
+
+      &:hover {
+        transform: rotate(-2deg);
+      }
+    }
+  }
+
+  .boxContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+
+    background-image: url(../../assets/wave-3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    width: 100%;
+    padding-bottom: 80px;
+
+    .leftContainer {
+      border-radius: 0px 20px 20px 0px;
+      padding: 50px 100px 100px;
+
+      h1 {
+        font-size: 5rem;
+        margin-bottom: 20px;
+        transition: 500ms all;
+
+        &:hover {
+          transform: rotate(4deg);
+        }
+      }
+
+      button {
+        font-size: 1.4rem;
+        background-color: #fff;
+        color: #333;
+        border-radius: 10px;
+        border: 2px solid #333;
+        padding: 10px 35px;
+        box-shadow: 4px 4px 0px #000;
+        font-weight: bold;
+        transform: rotate(-3deg);
+        cursor: pointer;
+        transition: 350ms all;
+        align-self: start;
+        margin-top: 50px;
+
+        &:hover {
+          background-color: #333;
+          color: #fff;
+          transform: rotate(3deg);
+        }
+      }
+    }
+
+    .right-container {
+      img {
+        width: 540px;
+      }
+    }
+  }
+}
