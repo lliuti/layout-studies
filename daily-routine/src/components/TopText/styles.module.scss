@@ -1,0 +1,59 @@
+.topTextContainer {
+  padding: 50px 100px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    transform: rotate(3deg);
+    transition: 300ms all;
+
+    &:hover {
+      transform: rotate(0deg);
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 10px;
+      transform: rotate(1.2deg);
+      &:hover {
+        transform: rotate(2deg);
+      }
+    }
+  }
+
+  h2 {
+    font-size: 6rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    transition: 300ms all;
+
+    &:hover {
+      transform: rotate(-1deg);
+    }
+  }
+
+  button {
+    font-size: 1.4rem;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    border: 2px solid #333;
+    padding: 10px 35px;
+    box-shadow: 4px 4px 0px #000;
+    font-weight: bold;
+    transform: rotate(-2deg);
+    cursor: pointer;
+    transition: 350ms all;
+    align-self: center;
+    margin-top: 50px;
+
+    &:hover {
+      background-color: #333;
+      color: #fff;
+      transform: rotate(0deg);
+    }
+  }
+}
