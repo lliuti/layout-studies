@@ -14,6 +14,14 @@ Frontend UI/UX/Animation/Responsivity studies. Most of these studies are inspira
 
 <br>
 
+### Daily Routine
+
+![Daily Routine example](/daily-routine/src/assets/example.gif)
+
+##### Inspired by [Cuberto](https://dribbble.com/shots/14041570-Daily-Routine-Self-Care-Services/attachments/5659416?mode=media)
+
+<br>
+
 ### Typography
 
 ![Typography Example](/typography/example.gif)
@@ -43,14 +51,6 @@ Frontend UI/UX/Animation/Responsivity studies. Most of these studies are inspira
 ![NFTVERSE Example](/nftverse/src/assets/example.png)
 
 ##### Inspired by [Irfan](https://dribbble.com/shots/16820981-Metaverse-Multi-Chain-NFT-Platform)
-
-<br>
-
-### Daily Routine
-
-![Daily Routine example](/daily-routine/src/assets/example.gif)
-
-##### Inspired by [Cuberto](https://dribbble.com/shots/14041570-Daily-Routine-Self-Care-Services/attachments/5659416?mode=media)
 
 <br>
 
