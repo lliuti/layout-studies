@@ -1,0 +1,237 @@
+.art.crow {
+  background-color: #8aa9e2;
+}
+
+.art.crow .head {
+  position: relative;
+  margin-left: 310px;
+  margin-bottom: 130px;
+}
+
+.art.crow .head .beak {
+  position: relative;
+  transform: rotate(10deg);
+}
+
+.art.crow .head .beak .beak-tri-1 {
+  /* background-color: #3f4650; */
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 40px solid #3f4650;
+  transform: rotate(-14deg);
+  position: absolute;
+  top: -65px;
+  left: -21px;
+}
+
+.art.crow .head .beak .beak-tri-2 {
+  /* background: #373e48; */
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 20px solid #373e48;
+  position: absolute;
+  top: -35px;
+  left: -20px;
+}
+
+.art.crow .head .beak .beak-tri-3 {
+  /* background: #242c37; */
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 104px solid transparent;
+  border-bottom: 15px solid #242c37;
+  position: absolute;
+  top: -23px;
+  left: -13px;
+  transform: rotate(-8deg);
+}
+
+.art.crow .head .main-head {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 115px solid #373d49;
+  position: absolute;
+  transform: rotate(-145deg);
+  top: -36px;
+  left: -79px;
+  z-index: 1;
+}
+
+.art.crow .head .main-head .head-tri {
+  width: 0;
+  height: 0;
+  border-left: 48px solid transparent;
+  border-right: 13px solid transparent;
+  border-top: 29px solid #373d49;
+  position: absolute;
+  top: 114px;
+  left: -31px;
+}
+
+.art.crow .head .main-head .eye {
+  background-color: #0f1523;
+  border-radius: 2px 15px 0px 9px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 118px;
+  left: -8px;
+  transform: rotate(125deg);
+}
+
+.art.crow .head .main-head .eye::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  right: 3px;
+  background-color: #a4aaaa;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.art.crow .head .neck {
+  width: 0;
+  height: 0;
+  border-left: 135px solid transparent;
+  border-bottom: 70px solid #333945;
+  border-right: 0px solid transparent;
+  position: absolute;
+  left: -87px;
+  top: 24px;
+  transform: rotate(-220deg);
+}
+
+.art.crow .head .neck-upper {
+  width: 0;
+  height: 0;
+  border-left: 115px solid transparent;
+  border-bottom: 70px solid #262c38;
+  border-right: 0px solid transparent;
+  position: absolute;
+  left: -121px;
+  top: -15px;
+  transform: rotate(-218deg);
+  z-index: 2;
+}
+
+.art.crow .body {
+  position: relative;
+  margin-bottom: 130px;
+}
+
+.art.crow .body .feather-1 {
+  width: 0;
+  height: 0;
+  border-left: 106px solid transparent;
+  border-right: 19px solid transparent;
+  border-bottom: 108px solid #373b47;
+  position: absolute;
+  top: 34px;
+  left: -245px;
+  transform: rotate(271deg);
+  z-index: 1;
+}
+
+.art.crow .body .feather-1::after {
+  width: 0;
+  height: 0;
+  border-left: 39px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 117px solid #3c404c;
+  position: absolute;
+  top: 70px;
+  left: -79px;
+  transform: rotate(72deg);
+  content: "";
+  display: block;
+  z-index: 1;
+}
+
+.art.crow .body .feather-2 {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 100px solid #4e525d;
+  border-bottom: 80px solid transparent;
+  position: absolute;
+  top: 43px;
+  left: -236px;
+  z-index: 1;
+}
+
+.art.crow .body .feather-2::after {
+  width: 0;
+  height: 0;
+  border-left: 39px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 117px solid #3c424e;
+  position: absolute;
+  top: -8px;
+  left: -156px;
+  transform: rotate(-204deg);
+  content: "";
+  display: block;
+  z-index: 1;
+}
+
+.art.crow .body .feather-3 {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 100px solid #252b37;
+  border-bottom: 220px solid transparent;
+  position: absolute;
+  top: 48px;
+  left: -254px;
+  transform: rotate(49deg);
+  z-index: 0;
+}
+
+.art.crow .body .feather-4 {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 70px solid #252b37;
+  border-bottom: 160px solid transparent;
+  position: absolute;
+  top: 28px;
+  left: -314px;
+  transform: rotate(69deg);
+  z-index: 0;
+}
+
+.art.crow .body .feather-5 {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 70px solid #252b37;
+  border-bottom: 160px solid transparent;
+  position: absolute;
+  top: 58px;
+  left: -344px;
+  transform: rotate(59deg);
+  z-index: 0;
+}
+
+.art.crow .body .feather-6 {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 70px solid #252b37;
+  border-bottom: 160px solid transparent;
+  position: absolute;
+  top: 80px;
+  left: -311px;
+  transform: rotate(57deg);
+  z-index: 0;
+}
