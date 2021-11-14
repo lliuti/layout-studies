@@ -1,0 +1,190 @@
+.art.pig {
+  background: #ffe7e4;
+}
+
+.art.pig .head {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.art.pig .head-shape-trapezoid {
+  border-bottom: 60px solid #ffb9af;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  height: 0;
+  width: 140px;
+  transform: rotateZ(-90deg);
+
+  position: absolute;
+  right: -30px;
+}
+
+.art.pig .head-shape-rectangle {
+  height: 140px;
+  width: 20px;
+  background-color: #ffb9af;
+  position: absolute;
+}
+
+.art.pig .head-shape-rectangle .hair {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 50px solid #ffcac2;
+  z-index: 10;
+  position: absolute;
+  left: 0px;
+}
+
+.art.pig .head-shape-rectangle .eye {
+  background-color: #ffcac2;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: -25px;
+}
+
+.art.pig .head-shape-rectangle .eyeball {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 2.5px;
+}
+
+.art.pig .head-shape-rectangle .eyeball::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #333;
+  bottom: 0px;
+  z-index: 4;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  left: 5px;
+  bottom: 3px;
+}
+
+.art.pig .head-shape-trapezoid2 {
+  border-bottom: 60px solid #f0a89d;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  height: 0;
+  width: 140px;
+  transform: rotateZ(90deg);
+  position: absolute;
+  right: -130px;
+}
+
+.art.pig .head-shape-rectangle2 {
+  height: 140px;
+  width: 20px;
+  background-color: #f0a89d;
+  position: absolute;
+  left: 10px;
+}
+
+.art.pig .head-shape-rectangle2 .hair2 {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 50px solid #ffcac2;
+  z-index: 10;
+  position: absolute;
+  left: 0px;
+}
+
+.art.pig .head-shape-rectangle .nose {
+  background: #e68880;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: -5px;
+  z-index: 1;
+}
+
+.art.pig .head-shape-rectangle .nose::after {
+  background: #be716a;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+
+  box-shadow: 20px 0px #be716a;
+}
+
+.art.pig .head-shape-rectangle2 .eye {
+  background-color: #ffcac2;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: -25px;
+  z-index: 5;
+}
+
+.art.pig .head-shape-rectangle2 .eyeball {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 2.5px;
+}
+
+.art.pig .head-shape-rectangle2 .eyeball::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #333;
+  bottom: 0px;
+  z-index: 4;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  left: 5px;
+  bottom: 3px;
+}
+
+.art.pig .head-shape-trapezoid2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 83px;
+  background-color: #e68880;
+  width: 30px;
+  height: 30px;
+  border-radius: 55px 0px 0px 25px;
+  transform: rotate(30deg);
+}
+
+.art.pig .head-shape-trapezoid::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 83px;
+  background-color: #e68880;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px 0px 0px 55px;
+  transform: rotate(150deg);
+}
